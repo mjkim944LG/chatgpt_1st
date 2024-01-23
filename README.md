@@ -9,12 +9,12 @@
 GPT(Generative Pre-trained Transformer)는 OpenAI에서 개발한 LLM(Large Language Model)입니다. 트랜스포머 아키텍처 기반의 딥러닝 모델입니다. 자세한 내용은 [OpenAI](https://openai.com)를 참조하세요.
 간단하게 정리된 문서는 다음을 참고하세요.
 - [Azure OpenAI 소개 - 한글 deck](http://azure.studydev.com/openai/aoai_2023_201.pdf)
-- [Azure OpenAI 서비스 최신 업데이트 - 한글 deck](http://azure.studydev.com/openai/aoai_2023_sol.pdf)
+- [Azure OpenAI 서비스 최신 업데이트 - 한글 deck](http://azure.studydev.com/openai/aoai_2024_q1.pdf)
 
 ## 리소스
 다음의 순서로 GPT를 학습할 수 있습니다.
 
-- [(누구나) Prompt Engineering - 기초](http://azure.studydev.com/openai/aoai_2023_pe_01.pdf)
+- [(누구나) Prompt Engineering - 기초](http://azure.studydev.com/openai/aoai_2024_pe_01.pdf)
 
 - [(누구나) Prompt Engineering - Playground에서 놀기](http://azure.studydev.com/openai/aoai_2023_pe_02.pdf)
 
