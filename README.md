@@ -24,6 +24,10 @@ GPT(Generative Pre-trained Transformer)는 OpenAI에서 개발한 LLM(Large Lang
 
 - [Use Cases | Kakao Navi 길찾기 API 통합](./use_cases/kakao_navi/notebooks/kakao_navi.ipynb): GPT의 Function Calling 기능에 실시간 카카오 Navi API를 연동하는 방법을 학습합니다.
 
+- [RAG 관련 영상](http://azure.studydev.com/openai/rag_wikipedia.mp4)
+
+- [LLMOps Prompt Flow 영상 (인코딩중)](http://azure.studydev.com/openai/llmops_promptflow.mp4)
+
 ----
 
 - [Fundamentals](./fundamentals/): GPT의 기본 사용법을 설명하는 노트북 모음입니다.
