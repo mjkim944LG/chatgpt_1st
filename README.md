@@ -3,7 +3,7 @@
 
 ## Update 정리
 >**Python 버전은 3.11.4, Azure OpenAI 버전은 1.13.3에서 실행하도록 코드를 수정하였습니다. - 2024-03-17**
-
+>해당 컨텐츠는 DevContainer 기반으로 개발에 필요한 환경설정이 정의되어져 있습니다. GitHub Codespace를 활용하거나, 로컬에 Docker를 설치한 상태에서 Visual Stduio Code IDE에 해당 Repository를 다운로드 받을 경우, 자동으로 컨테이너에 개발환경(Python Runtime 3.11.4, Azure OpenAI 1.13.3)을 설치합니다. .env 파일에 필수 API 정보를 입력하고 저장후 사용하세요.
 나만의 Jarvis 비서 만들기가 추가되었습니다. 외부 API를 말로 쉽게 호출하여 사용할 수 있습니다. [실습이동](./quick_start/11_my_jarvis_stt_chatgpt_tts.ipynb)
 ![나만의 비서 만들기](./quick_start/assets/stt_chatgpt_tts.png)
 
