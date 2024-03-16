@@ -1,5 +1,6 @@
 # GPT 기초, 사용 사례 및 샘플 솔루션 - 한국어 버전
-이 리포지토리에는 Azure OpenAI에서 제공하는 GPT(Generative Pre-trained Transformer)를 사용하는 기본 방법을 이해하고 샘플 솔루션을 및 다양한 사용 사례를 통해 이해에 도움이 되는 리소스가 포함되어 있습니다.
+이 리포지토리에는 Azure OpenAI에서 제공하는 GPT(Generative Pre-trained Transformer)를 사용하는 기본 방법을 이해하고 샘플 솔루션을 및 다양한 사용 사례를 통해 이해에 도움이 되는 리소스가 포함되어 있습니다. 해당 리포지토리는 아래를 참고하고 있으며 한국 환경에 맞게 최적화 되어 있습니다.
+Original Repo: https://github.com/Azure/azure-openai-samples
 
 ## Update 정리
 >**Python 버전은 3.11.4, Azure OpenAI 버전은 1.13.3에서 실행하도록 코드를 수정하였습니다. - 2024-03-17**  
@@ -37,22 +38,16 @@ GPT(Generative Pre-trained Transformer)는 OpenAI에서 개발한 LLM(Large Lang
 
 ----
 
-- [Fundamentals](./fundamentals/): GPT의 기본 사용법을 설명하는 노트북 모음입니다.
-
-- [Use Cases](./use_cases/): 챗봇, 고객 서비스, 콘텐츠 생성 등과 같은 다양한 애플리케이션에서 GPT를 사용하는 방법에 대한 예제를 보여주는 노트북 모음입니다.
-
-- [Sample Solutions](./solution_accelerators/): GPT가 솔루션의 일부인 다양한 산업에 특화된 비즈니스 애플리케이션 맥락에서 질문 답변, 텍스트 요약 및 감정 분석 등과 같은 다양한 NLP 작업을 위한 종단 간 솔루션입니다. *기여가 필요합니다!*
-
-- [Serverless SQL GPT](https://github.com/balakreshnan/Samples2023/blob/main/AzureML/serverlesssqlgpt.md) - Azure Machine Learning을 사용하는 Azure Synapse Analytics Serverless SQL에서 GPT를 사용한 NLP(자연어 처리).
-
-## GPT Version
-현재 여기의 샘플은 주로 GPT 3.5를 기반으로 합니다. 일반적으로 gpt-35-turbo 최신 모델을 활용합니다. OpenAI의 모델 정책에 맞추어 Chat Completion API 기반으로 컨텐츠가 수정중에 있습니다. 한국어 토큰 길이에 대한 제약이 있을 경우에는 gpt-35-turbo-16k 모델을 활용하는 것을 추천 드립니다. GPT-4는 가용할 수 있는 자원이 충분히 확보된 시점에 업데이트할 예정입니다.
+## 실습에 사용하는 GPT 버전
+현재 여기의 샘플은 주로 GPT 3.5를 기반으로 합니다. 일반적으로 gpt-35-turbo 최신 모델을 활용합니다. OpenAI의 모델 정책에 맞추어 Chat Completion API 기반으로 실습할 수 있습니다. gpt-35-turbo(0125) 모델 또는 gpt-4-turbo(0125-preview) 최신 모델을 활용하는 것을 추천 드립니다. (2024-03-17 기준)
 
 ## 설정하기
-이 리포지토리에서 샘플 코드를 사용하려면 Azure 서비스에 대한 주요 정보를 저장하는 .env 파일을 설정하는 것이 좋습니다. 예를 들어 [.env.sample](./.env.sample) 파일을 복사하여 `.env` 파일을 만들고 해당 API KEY 정보를 입력하여 사용합니다.
+>안전한 로컬 환경에서의 키관리를 위해 실습에 필요한 API Endpoint 또는 API Key는 ***.env*** 파일을 활용하는 것을 강력히 추천합니다. 예를 들어 [.env.sample](./.env.sample) 파일을 복사하여 `.env` 파일을 만들고 해당 API KEY 정보를 입력하여 사용합니다.
+
+----
 
 # 개발환경 선택하기
-해당 실습을 원활하게 제공하기 위해서 .devcontainer 환경을 제공하고 있습니다. 나의 PC에 Docker나 IDE 설치를 원하지 않는다면, `CodeSpace`를 권장합니다. 
+>해당 실습을 원활하게 제공하기 위해서 .devcontainer 환경을 제공하고 있습니다. 나의 PC에 Docker나 IDE 설치를 원하지 않는다면, `CodeSpace`를 권장합니다. 
 - Local PC에 `Docker`가 설치되어 있다면, VS Code에서 Reopen DevContainer를 실행하여 Docker에 컨테이너 이미지를 생성하면 자동으로 실습 가능한 런타임과 패키지들이 설치되도록 구성되어 있습니다.
 - GitHub에서 제공하는 `CodeSpace`를 활용하면, CodeSpace가 제공하는 리모트 VM에 컨테이너가 올라가고, CodeSpace가 제공하는 웹브라우저 용 VS Code를 통해 즉시 개발을 진행할 수 있습니다.
 
