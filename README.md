@@ -26,9 +26,14 @@ GPT(Generative Pre-trained Transformer)는 OpenAI에서 개발한 LLM(Large Lang
 
 - [Use Cases | Kakao Navi 길찾기 API 통합](./use_cases/kakao_navi/notebooks/kakao_navi.ipynb): GPT의 Function Calling 기능에 실시간 카카오 Navi API를 연동하는 방법을 학습합니다.
 
-- [RAG 관련 영상](http://azure.studydev.com/openai/rag_wikipedia.mp4)
+----
 
-- [LLMOps Prompt Flow 영상 (인코딩중)](http://azure.studydev.com/openai/llmops_promptflow.mp4)
+## 관련 동영상
+- [Retrieval Augmented Generation(RAG) 실습 소개 영상](http://azure.studydev.com/openai/rag_wikipedia.mp4)
+>별도의 프로그래밍 지식이 없더라도 나의 데이터를 조회하고 답변을 만들 수 있는 서비스를 만들 수 있습니다. 임베딩 되어 있는 Wikipedia 문서를 벡터DB에 색인화하고, Azure OpenAI의 On your data 기능으로 Playground에서 챗봇 서비스를 즉시 생성하는 방법을 설명합니다.
+
+- [LLMOps Prompt Flow 영상](http://azure.studydev.com/openai/llmops_promptflow.mp4)
+>LLMOps를 위한 도구인 Prompt Flow를 설명하고, 질문을 하면, 위 영상에서 색인화된 벡터DB를 조회하여 원하는 답변을 생성하는 RAG 기반의 API를 생성하고 테스트 하는 방법을 소개합니다. 
 
 ----
 
