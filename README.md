@@ -30,11 +30,14 @@ GPT(Generative Pre-trained Transformer)는 OpenAI에서 개발한 LLM(Large Lang
 
 ----
 
-## 관련 동영상
-- [Retrieval Augmented Generation(RAG) 실습 소개 영상](http://azure.studydev.com/openai/rag_wikipedia.mp4)
->별도의 프로그래밍 지식이 없더라도 나의 데이터를 조회하고 답변을 만들 수 있는 서비스를 만들 수 있습니다. 임베딩 되어 있는 Wikipedia 문서를 벡터DB에 색인화하고, Azure OpenAI의 On your data 기능으로 Playground에서 챗봇 서비스를 즉시 생성하는 방법을 설명합니다.
+## 실습 동영상
+- [코드 기반으로 알아보는 프롬프트 엔지니어링 기초](https://youtu.be/XQ917ZOaaOk)
+>Python 코드 기반으로 프롬프트 엔지니어링을 하는 방법을 소개합니다. 해당 영상은 Python Runtime 3.11.4, Azure OpenAI 1.13.3 버전의 환경에서 실행할 수 있도록 소스 코드(GitHub Repository)와 개발환경 세팅(DevContainer) 정보를 동시에 포함하고 있습니다. 빠른 개발환경을 위해서는 GitHub의 Codespace 기반으로 개발 환경을 구축하고, 웹브라우저 상에서 Visual Stduio Code IDE와 동일하게 개발하고 테스트 할 수 있습니다. 
 
-- [LLMOps Prompt Flow 영상](http://azure.studydev.com/openai/llmops_promptflow.mp4)
+- [Retrieval Augmented Generation(RAG) 실습 소개 영상](https://youtu.be/XsqPjHYZD04)
+>별도의 프로그래밍 지식이 없더라도 나의 데이터를 조회하고 답변을 만들 수 있는 서비스를 만들 수 있습니다. 임베딩 되어 있는 Wikipedia 문서를 벡터DB에 색인화하고, Azure OpenAI의 On your data 기능으로 Playground에서 챗봇 서비스를 즉시 생성하는 방법을 설명합니다. OpenAI에서 제공하는 text-embedding-ada-002 API 기반으로 사전에 Wikipedia 정보를 Vector화 한 데이터의 일부분을 Azure AI Search 서비스에 인덱싱하고, Azure OpenAI Studio Playground 에서 on your data 로 연결하여 챗봇 서비스를 즉시 활용할 수 있는 방법을 다룹니다.
+
+- [LLMOps Prompt Flow 영상](https://youtu.be/ECl0D8rHoDc)
 >LLMOps를 위한 도구인 Prompt Flow를 설명하고, 질문을 하면, 위 영상에서 색인화된 벡터DB를 조회하여 원하는 답변을 생성하는 RAG 기반의 API를 생성하고 테스트 하는 방법을 소개합니다. 
 
 ----
